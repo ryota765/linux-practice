@@ -7,6 +7,6 @@ ENV APP_ROOT /usr/src
 WORKDIR $APP_ROOT
 
 RUN apt-get update && \
-    apt-get install -y binutils build-essential golang sysstat python3-matplotlib python3-pil fonts-takao fio qemu-kvm virt-manager libvirt-clients virtinst jq docker.io containerd libvirt-daemon-system strace vim && \
+    apt-get install -y binutils build-essential golang sysstat python3-matplotlib python3-pil fonts-takao fio qemu-kvm virt-manager libvirt-clients virtinst jq docker.io containerd libvirt-daemon-system strace vim psmisc && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
