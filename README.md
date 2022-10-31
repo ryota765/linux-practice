@@ -9,3 +9,6 @@ $ ./scripts/setup.sh
 $ docker-compose exec linux bash
 (Get in container)
 ```
+
+## References
+- [Author's repo](https://github.com/satoru-takeuchi/linux-in-practice-2nd)
